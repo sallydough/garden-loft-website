@@ -3,6 +3,7 @@ import Home from './components/Home/Home'
 import './App.css'
 import Safety from './components/Safety/Safety'
 import Navbar from './components/Navbar/Navbar'
+import Carousel from './components/Carousel';  
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
       <div>
        <Navbar />
        <Home/>
+       <Carousel />
        <Safety/>
       
       </div>
@@ -20,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

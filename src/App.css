@@ -1,4 +1,41 @@
 #root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* App.css */
+.swiper-pagination {
+  position: relative;
+  bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+  background: #000 !important;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  margin: 0 4px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+  border: 2px solid #000 !important;
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  margin: 0 4px !important;
+}
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
 }
