@@ -4,9 +4,9 @@ import './App.css'
 import Safety from './components/Safety/Safety'
 import Navbar from './components/Navbar/Navbar'
 
-import Footer from './components/Footer/Footer';
 import Carousel from './components/Carousel';  
 import Units from './components/Units/Units';
+import Footer from './components/Footer/Footer';
 
 function App() {
   
@@ -15,13 +15,12 @@ function App() {
       <div>
        <Navbar />
        <Home/>
-       <Carousel />
        <Safety/>
-      
 
-
+       <Carousel />
        <Units />
        <Footer/>
+
       </div>
    
    
