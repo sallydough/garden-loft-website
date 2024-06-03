@@ -3,7 +3,7 @@ import "./Units.css"
 function Units() {
   return (
     <div id="unit-container">
-      <div id="unit-title">
+      <div className="unit-title">
         <h1>Our Units</h1>
         <p>Garden Lofts come in two sizes:</p>
       </div>
