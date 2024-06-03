@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import livingRoomImage from '/images/livingRoom.png'; // Ensure this path is correct
+import './Carousel.css'
 
 const Carousel: React.FC = () => {
   return (
