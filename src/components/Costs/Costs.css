@@ -11,9 +11,10 @@
   padding: 10px;
 }
 .costs-img{
-  width: 100%;
-  height: auto;
+/*  
+  height: auto; */
   object-fit: cover;
+  
 }
 
 .costs h1 {
