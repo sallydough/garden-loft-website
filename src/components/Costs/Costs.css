@@ -1,0 +1,54 @@
+.costs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.costs-content {
+  padding: 10px;
+}
+.costs-img{
+
+  height: auto;
+  object-fit: cover;
+}
+
+.costs h1 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+
+
+
+.button-costs {
+  background-color: rgb(250, 250, 250);
+  border: 2px solid rgb(240, 212, 5);
+  padding: 10px 20px;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+  .costs h1 {
+    font-size: 3rem;
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+  .costs h1 {
+    font-size: 4rem;
+  }
+
+ 
+}
+

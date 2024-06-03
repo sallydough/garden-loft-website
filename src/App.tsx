@@ -6,7 +6,9 @@ import Navbar from './components/Navbar/Navbar'
 
 import Carousel from './components/Carousel';  
 import Units from './components/Units/Units';
+import Costs from './components/Costs/Costs'
 import Footer from './components/Footer/Footer';
+import Process from './components/Process/Process'
 
 function App() {
   
@@ -16,9 +18,10 @@ function App() {
        <Navbar />
        <Home/>
        <Safety/>
-
        <Carousel />
        <Units />
+       <Costs />
+       <Process />
        <Footer/>
 
       </div>
