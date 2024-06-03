@@ -4,6 +4,7 @@ import './Footer.css';
 
 function Footer() {
   return (
+    <>
     <div className='footer'>
       <div className='footer-content'>
         <h1>Content</h1>
@@ -24,12 +25,15 @@ function Footer() {
           <h3><a href="#initial-meeting">Initial Meeting</a></h3>
         </div>
       </div>
-      <div className="logo">
-        <img src={GLLogo} alt="Logo" />
-        <h1>garden loft</h1> <br />
-        <p>838 11 Ave SW {'{'}by appointment{'}'} <br /> (403)229-4330 <br />info@gardenloft.ca</p>
       </div>
- </div>
+      <div className="logo-section">
+  <div className="logos">
+    <img src={GLLogo} alt="Logos" />
+    <h1>garden loft</h1> <br />
+    <p>838 11 Ave SW {'{'}by appointment{'}'} <br /> (403)229-4330 <br />info@gardenloft.ca</p>
+  </div>
+</div>
+</>
   );
 }
 
