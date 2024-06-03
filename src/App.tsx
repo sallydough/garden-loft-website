@@ -1,13 +1,25 @@
-import React from 'react';
-import './App.css';
-import Carousel from './components/Carousel';  // Import the Carousel component
+import React from 'react'
+import Home from './components/Home/Home'
+import './App.css'
+import Safety from './components/Safety/Safety'
+import Navbar from './components/Navbar/Navbar'
+import Carousel from './components/Carousel';  
 
 function App() {
+  
   return (
-    <div>
-      <Carousel />  {/* Add the Carousel component here */}
-    </div>
-  );
+    <>
+      <div>
+       <Navbar />
+       <Home/>
+       <Carousel />
+       <Safety/>
+      
+      </div>
+   
+   
+    </>
+  )
 }
 
 export default App;
