@@ -3,8 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import livingRoomImage from '/images/livingRoom.png'; // Adjust the path as necessary
-
+import livingRoomImage from '/images/livingRoom.png'; // Ensure this path is correct
 
 const Carousel: React.FC = () => {
   return (
