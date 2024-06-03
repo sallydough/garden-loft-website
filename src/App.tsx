@@ -8,7 +8,11 @@ import Carousel from './components/Carousel';
 import Units from './components/Units/Units';
 import Costs from './components/Costs/Costs'
 import Footer from './components/Footer/Footer';
+
 import Process from './components/Process/Process'
+
+import Testimony from './components/Testimony/Testimony'
+
 
 function App() {
   
@@ -20,8 +24,12 @@ function App() {
        <Safety/>
        <Carousel />
        <Units />
+
        <Costs />
        <Process />
+
+       <Testimony/>
+
        <Footer/>
 
       </div>
