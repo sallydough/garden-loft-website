@@ -4,39 +4,38 @@
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* App.css */
+.swiper-pagination {
+  position: relative;
+  bottom: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.swiper-pagination-bullet {
+  background: #000 !important;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  margin: 0 4px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+  border: 2px solid #000 !important;
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  margin: 0 4px !important;
 }
 
-.card {
-  padding: 2em;
+.swiper-container {
+  width: 100%;
+  height: auto;
 }
 
-.read-the-docs {
-  color: #888;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
 }
