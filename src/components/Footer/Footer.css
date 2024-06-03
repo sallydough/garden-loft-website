@@ -46,7 +46,9 @@
   padding: 1rem;
   color: #000;
 }
-
+.logos-title{
+  flex-direction: row;
+}
 .logos img {
   width: 50px;
   height: auto;

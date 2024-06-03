@@ -28,11 +28,14 @@ function Footer() {
       </div>
       <div className="logo-section">
   <div className="logos">
+    <div className='logos-title'>
     <img src={GLLogo} alt="Logos" />
-    <h1>garden loft</h1> <br />
+    <h1>garden loft</h1>
+    </div>
     <p>838 11 Ave SW {'{'}by appointment{'}'} <br /> (403)229-4330 <br />info@gardenloft.ca</p>
   </div>
-</div>
+  </div>
+  
 </>
   );
 }
