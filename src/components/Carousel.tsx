@@ -8,36 +8,51 @@ import './Carousel.css'
 
 const Carousel: React.FC = () => {
   return (
-    <div style={{ padding: '20px', textAlign: 'center' }}>
-      <h2 style={{ marginBottom: '20px' }}>The Garden Loft Advantage</h2>
+    <div style={{ padding: '20px', textAlign: 'center', width: "100vw" }}>
+      <h1 style={{ fontSize: "2rem", marginBottom: '30px', marginTop: '40px' }}>The Garden Loft Advantage</h1>
       <Swiper
         modules={[Pagination]}
         spaceBetween={30}
         pagination={{ clickable: true }}
-        slidesPerView={1}
-        style={{ paddingBottom: '40px' }}
+        slidesPerView={1.5}
+        style={{ paddingBottom: '30px' }}
       >
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage} alt="Living Room" style={{ width: '100%', maxWidth: '400px', margin: '0 auto', borderRadius: '10px' }} />
-            <h3>Prefabrication Efficiency</h3>
-            <p>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
+            <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "60vh", margin: '0 auto', borderRadius: '1px' }} />
+            <h3 style={{ textAlign: 'left' }}>Prefabrication Efficiency</h3>
+            <p style={{ textAlign: 'left' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage} alt="Living Room" style={{ width: '100%', maxWidth: '400px', margin: '0 auto', borderRadius: '10px' }} />
-            <h3>Low Impact Design</h3>
-            <p>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
+            <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "60vh", margin: '0 auto', borderRadius: '1px' }} />
+            <h3 style={{ textAlign: 'left' }}>Prefabrication Efficiency</h3>
+            <p style={{ textAlign: 'left' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage} alt="Living Room" style={{ width: '100%', maxWidth: '400px', margin: '0 auto', borderRadius: '10px' }} />
-            <h3>Eco-Friendly Construction</h3>
-            <p>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
+            <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "60vh", margin: '0 auto', borderRadius: '1px' }} />
+            <h3 style={{ textAlign: 'left' }}>Prefabrication Efficiency</h3>
+            <p style={{ textAlign: 'left' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ textAlign: 'center' }}>
+            <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "60vh", margin: '0 auto', borderRadius: '1px' }} />
+            <h3 style={{ textAlign: 'left' }}>Prefabrication Efficiency</h3>
+            <p style={{ textAlign: 'left' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ textAlign: 'center' }}>
+            <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "60vh", margin: '0 auto', borderRadius: '1px' }} />
+            <h3 style={{ textAlign: 'left' }}>Prefabrication Efficiency</h3>
+            <p style={{ textAlign: 'left' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
+          </div>
+        </SwiperSlide>
+       
       </Swiper>
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
         <button style={{
