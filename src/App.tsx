@@ -4,6 +4,7 @@ import './App.css'
 import Safety from './components/Safety/Safety'
 import Navbar from './components/Navbar/Navbar'
 import Carousel from './components/Carousel';  
+import Units from './components/Units/Units'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
        <Home/>
        <Carousel />
        <Safety/>
+       <Units />
       
       </div>
    

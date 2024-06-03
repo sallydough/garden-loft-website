@@ -6,10 +6,11 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: #333;
+  background-color: #33333306;
   color: #fff;
   width: 100vw;
-  gap: 6rem
+  gap: 6rem;
+  position: absolute;
 }
 
 .logo {
