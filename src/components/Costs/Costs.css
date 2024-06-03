@@ -11,7 +11,7 @@
   padding: 10px;
 }
 .costs-img{
-
+  width: 100%;
   height: auto;
   object-fit: cover;
 }
@@ -33,6 +33,7 @@
   cursor: pointer;
   text-align: center;
   margin-top: 10px;
+  font-size: 1.5rem;
 }
 
 /* Media Queries for Larger Screens */

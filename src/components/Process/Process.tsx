@@ -8,8 +8,8 @@ import './Process.css'
 
 const Process: React.FC = () => {
   return (
-    <div style={{ padding: '20px', textAlign: 'center', width: "100vw" }}>
-      <h1 style={{ fontSize: "2rem", marginBottom: '30px', marginTop: '40px' }}>Owing a Garden Loft <br />is a 4-Step Process</h1>
+    <div className='process' style={{ padding: '20px', textAlign: 'center', width: "100vw" }}>
+      <h1 style={{ fontSize: "2.5rem", marginBottom: '30px', marginTop: '40px' }}>Owing a Garden Loft is a 4-Step Process</h1>
       <Swiper
         modules={[Pagination]}
         spaceBetween={30}
@@ -29,7 +29,7 @@ const Process: React.FC = () => {
           <div style={{ textAlign: 'center' }}>
             <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "60vh", margin: '0 auto', borderRadius: '1px' }} />
             <h2 style={{ textAlign: 'left' }}> <strong>STEP 2</strong></h2>
-            <h3 style={{ textAlign: 'left' }}>Permits and Approvals</h3>
+            <h3 style={{ textAlign: 'left' }}>Permits + Approvals</h3>
             <p style={{ textAlign: 'left' }}>We can take care of obtaining all the development and building permits and approvals. <br />Garden Lofts are noow allowed in all Calgary neighborhoods as legal secondary suites</p>
           </div>
         </SwiperSlide>
