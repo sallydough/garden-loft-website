@@ -1,8 +1,14 @@
 /* Carousel.css */
 
-.process{
-  background-color: rgb(243, 176, 6);
+#four-step-process {
+  background-color: #ffbf00;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 110vw;
 }
+
 .swiper-pagination {
   position: relative;
   bottom: 10px;
