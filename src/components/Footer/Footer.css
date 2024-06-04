@@ -48,6 +48,7 @@
 }
 .logos-title{
   flex-direction: row;
+  color: aliceblue;
 }
 .logos img {
   width: 50px;
@@ -63,6 +64,7 @@
   margin: 0;
   font-size: 1rem;
   text-align: center;
+  color: aliceblue;
 }
 
 
