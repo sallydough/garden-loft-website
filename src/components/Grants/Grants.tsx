@@ -1,4 +1,4 @@
-import React from 'react'
+
 import GLCost from  '../../assets/images/gl-cost.png'
 import './Grants.css'
 

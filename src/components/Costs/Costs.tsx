@@ -1,11 +1,12 @@
 import React from 'react';
 import './Costs.css';
+import GLCost from '../../assets/images/gl-cost.png'
 
 const Costs: React.FC = () => {
   return (
-    <section className="costs">
+    <section id="compare-costs">
       <div className='costs-img'>
-        <img src="src/assets/images/gloft6.jpg" alt="GL" />
+        <img className='costs-img' src={GLCost} alt="GL" />
       </div>
       <div className="costs-content">
         <h1>Garden Lofts can be more affordable than <br />living in care facility</h1>

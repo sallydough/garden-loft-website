@@ -1,7 +1,7 @@
 import React from "react";
 import "./Units.css";
 import GL380 from "../../assets/images/glmap.png";
-import GL480 from "../../assets/images/gl480.png";
+// import GL480 from "../../assets/images/gl480.png";
 const Units: React.FC = () => {
   return (
     <section id="two-units">
