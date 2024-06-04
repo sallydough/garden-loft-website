@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import Process from './components/Process/Process'
 
 import Testimony from './components/Testimony/Testimony'
+import Report from './components/Report/Report'
 
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
       <div>
        <Navbar />
        <Home/>
+
        <Safety/>
        <Carousel />
+       <Report/>
        <Units />
 
        <Costs />

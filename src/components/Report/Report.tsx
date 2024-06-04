@@ -1,9 +1,57 @@
-import React from 'react'
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
+import Interior1 from '../../assets/images/GardenLoft-Interior1.jpg';
+import Interior2 from '../../assets/images/GardenLoft-Interior2.jpg'; 
 
-function Report() {
+import './Report.css';
+
+const Report: React.FC = () => {
   return (
-    <div>Report</div>
-  )
-}
+    <div className="report-container">
+      <h1 className="report-title">Combining light-filled open plan loft-living with safety and peace of mind</h1>
+      <Swiper
+        modules={[Pagination]}
+        spaceBetween={6}
+        pagination={{ clickable: true }}
+        slidesPerView={1.2}
+        centeredSlides={true}
+        loop={true}
+        style={{ paddingBottom: '30px' }}
+      >
+        <SwiperSlide>
+          <div className="report-slide">
+            <img src={Interior1} alt="Loft Image 1" className="report-image" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="report-slide">
+            <img src={Interior2} alt="Loft Image 2" className="report-image" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="report-slide">
+            <img src={Interior1} alt="Loft Image 3" className="report-image" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="report-slide">
+            <img src={Interior2} alt="Loft Image 4" className="report-image" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="report-slide">
+            <img src={Interior1} alt="Loft Image 5" className="report-image" />
+          </div>
+        </SwiperSlide>
+      </Swiper>
+      <div style={{ textAlign: 'center', marginTop: '20px' }}>
+        <button className="report-button">Request a Feasibility Report</button>
+      </div>
+    </div>
+  );
+};
 
-export default Report
+export default Report;
