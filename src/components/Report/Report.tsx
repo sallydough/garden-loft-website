@@ -11,7 +11,7 @@ import './Report.css';
 const Report: React.FC = () => {
   return (
     <div className="report-container">
-      <h1 className="report-title">Combining light-filled open plan loft-living with safety and peace of mind</h1>
+      <h1 className="report-title">Combining light-filled open plan <br/>  loft-living with safety and peace of mind</h1>
       <Swiper
         modules={[Pagination]}
         spaceBetween={6}
@@ -19,7 +19,7 @@ const Report: React.FC = () => {
         slidesPerView={1.2}
         centeredSlides={true}
         loop={true}
-        style={{ paddingBottom: '30px' }}
+        style={{ paddingBottom: '40px' }}
       >
         <SwiperSlide>
           <div className="report-slide">

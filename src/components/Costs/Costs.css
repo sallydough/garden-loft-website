@@ -1,22 +1,19 @@
-.costs {
+#compare-costs {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-
 }
 
 .costs-content {
   padding: 10px;
 }
 .costs-img{
-
-  height: auto;
-  object-fit: cover;
+  width: 100vw;
 }
 
-.costs h1 {
+#compare-costs h1 {
   font-size: 1rem;
   margin-bottom: 1rem;
   color: #000;
@@ -37,7 +34,7 @@
 
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
-  .costs h1 {
+  #compare-costs h1 {
     font-size: 3rem;
   }
 
@@ -45,7 +42,7 @@
 }
 
 @media (min-width: 1024px) {
-  .costs h1 {
+  #compare-costs h1 {
     font-size: 4rem;
   }
 

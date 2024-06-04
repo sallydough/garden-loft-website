@@ -10,7 +10,7 @@ import './Testimony.css';
 
 const Testimony: React.FC = () => {
   return (
-    <div className="testimony-container">
+    <div id="garden-lofters">
       <h1 className="testimony-title">Meet Our Garden Lofters:</h1>
       <Swiper
         modules={[Pagination]}

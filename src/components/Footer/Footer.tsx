@@ -1,4 +1,4 @@
-import React from 'react';
+
 import GLLogo from "../../assets/gloft-logo.svg";
 import './Footer.css';
 

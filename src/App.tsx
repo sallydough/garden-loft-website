@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "./components/Home/Home";
 import "./App.css";
 import Safety from "./components/Safety/Safety";

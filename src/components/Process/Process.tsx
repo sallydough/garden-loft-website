@@ -8,7 +8,7 @@ import './Process.css'
 
 const Process: React.FC = () => {
   return (
-    <div style={{ padding: '20px', textAlign: 'center', width: "100vw" }}>
+    <div id="four-step-process" style={{ padding: '20px', textAlign: 'center', width: "100vw" }}>
       <h1 style={{ fontSize: "2rem", marginBottom: '30px', marginTop: '40px' }}>Owing a Garden Loft <br />is a 4-Step Process</h1>
       <Swiper
         modules={[Pagination]}
