@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   padding: 2rem;
   width: 100vw;
@@ -46,13 +46,19 @@
 
 .menu-web {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
-.menu-web a {
+.menu-web a{
   color: inherit;
   text-decoration: none;
   font-size: 1rem;
+}
+.menu-web a:hover {
+  color: black;
+  font-size: 1rem;
+  transition: ease-in 0.4s;
 }
 
 .hamburger-menu {
@@ -176,5 +182,6 @@
   .hamburger-menu {
     display: flex;
   }
+  
 }
 
