@@ -8,6 +8,7 @@ import Carousel from './components/Carousel';
 import Units from './components/Units/Units';
 import Footer from './components/Footer/Footer';
 import Testimony from './components/Testimony/Testimony'
+import Report from './components/Report/Report'
 
 function App() {
   
@@ -16,9 +17,11 @@ function App() {
       <div>
        <Navbar />
        <Home/>
+
        <Safety/>
 
        <Carousel />
+       <Report/>
        <Units />
        <Testimony/>
        <Footer/>
