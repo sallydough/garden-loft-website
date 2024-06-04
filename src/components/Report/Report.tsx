@@ -11,7 +11,6 @@ import './Report.css';
 const Report: React.FC = () => {
   return (
     <div className="report-container">
-      <h1 className="report-title">Combining light-filled open plan <br/>  loft-living with safety and peace of mind</h1>
       <Swiper
         modules={[Pagination]}
         spaceBetween={6}
@@ -19,22 +18,25 @@ const Report: React.FC = () => {
         slidesPerView={1.2}
         centeredSlides={true}
         loop={true}
-        style={{ paddingBottom: '40px' }}
+        style={{ paddingBottom: '20px' }}
       >
         <SwiperSlide>
           <div className="report-slide">
             <img src={Interior1} alt="Loft Image 1" className="report-image" />
           </div>
+          <h1 className="report-title">Combining light-filled open plan <br/>  loft-living with safety and peace of mind</h1>
         </SwiperSlide>
         <SwiperSlide>
           <div className="report-slide">
             <img src={Interior2} alt="Loft Image 2" className="report-image" />
           </div>
+          <h1 className="report-title">Combining light-filled open plan <br/>  loft-living with safety and peace of mind</h1>
         </SwiperSlide>
         <SwiperSlide>
           <div className="report-slide">
             <img src={Interior1} alt="Loft Image 3" className="report-image" />
           </div>
+          <h1 className="report-title">Combining light-filled open plan <br/>  loft-living with safety and peace of mind</h1>
         </SwiperSlide>
         <SwiperSlide>
           <div className="report-slide">
@@ -45,6 +47,7 @@ const Report: React.FC = () => {
           <div className="report-slide">
             <img src={Interior1} alt="Loft Image 5" className="report-image" />
           </div>
+          <h1 className="report-title">Combining light-filled open plan <br/>  loft-living with safety and peace of mind</h1>
         </SwiperSlide>
       </Swiper>
       <div style={{ textAlign: 'center', marginTop: '20px' }}>

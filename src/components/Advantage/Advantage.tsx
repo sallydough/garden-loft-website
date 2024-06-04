@@ -8,8 +8,8 @@ import './Advantage.css'
 
 const Advantage: React.FC = () => {
   return (
-    <section id="garden-loft-advantage" style={{ padding: '20px', textAlign: 'center', width: "100vw" }}>
-      <h1 style={{ fontSize: "2rem", marginBottom: '30px', marginTop: '40px' }}>The Garden Loft Advantage</h1>
+    <section id="garden-loft-advantage" style={{  textAlign: 'center', width: "100vw" }}>
+      <h1 style={{ fontSize: "3rem", marginBottom: '30px', marginTop: '40px' }}>The Garden Loft Advantage</h1>
       <Swiper
         modules={[Pagination]}
         spaceBetween={10}
@@ -17,7 +17,7 @@ const Advantage: React.FC = () => {
         slidesPerView={1.2}
         centeredSlides={true}
         loop={true}
-        style={{ paddingBottom: '30px' }}
+        style={{ paddingBottom: '20px' }}
       
       >
         <SwiperSlide>
@@ -67,14 +67,14 @@ const Advantage: React.FC = () => {
         </SwiperSlide>
        
       </Swiper>
-      <div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <div style={{ textAlign: 'center', alignContent: "center", marginTop: '1px' }}>
         <button style={{
           background: 'none',
-          border: '2px solid rgb(240, 212, 5)',
-          padding: '10px 20px',
-          borderRadius: '20px',
+          border: '4px solid rgb(240, 212, 5)',
+          padding: '20px 30px',
+          borderRadius: '50px',
           cursor: 'pointer',
-          fontSize: '16px'
+          fontSize: '1.3rem'
         }}>Call Us</button>
       </div>
     </section>

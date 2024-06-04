@@ -1,7 +1,8 @@
 .report-container {
-  padding: 20px;
+  margin-top: 3rem;
   text-align: center;
   width: 100vw;
+  height: 100vh;
 }
 
 .report-title {
@@ -19,7 +20,7 @@
 
 .report-image {
   width: 80vw;
-  height: 40vh;
+  height: 50vh;
   object-fit: cover;
   margin: 0 auto;
   /* border-radius: 10px; */
@@ -27,10 +28,10 @@
 
 .report-button {
   background: none;
-  border: 2px solid #ffd700; /* Yellow outline */
-  padding: 10px 20px;
-  border-radius: 20px;
+  border: 4px solid #ffd700; /* Yellow outline */
+  padding: 20px 30px;
+  border-radius: 50px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.3rem;
   color: #000;
 }
