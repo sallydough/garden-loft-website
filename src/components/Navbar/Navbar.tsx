@@ -16,11 +16,12 @@ const Navbar: React.FC = () => {
         <h1>garden loft</h1>
       </div>
       <div className={`menu-web ${isMenuOpen ? 'open' : ''}`} id="menu-web">
-        <a href="#about">Safety Features</a>
-        <a href="#photos">Garden Loft Advantage</a>
-        <a href="#our-units">Our Units</a>
-        <a href="#our-units">4-Step Process</a>
-        <a href="#our-units">Rules + Grants</a>
+        <a href="#support-features">Safety Features</a>
+        <a href="#garden-loft-advantage">Garden Loft Advantage</a>
+        <a href="#two-units">Our Units</a>
+        <a href="#four-step-process">4-Step Process</a>
+        <a href="#rules-and-grants">Rules + Grants</a>
+        <a href="#garden-lofters">Meet Our Garden Lofters</a>
         <div className="button1"><a href="#our-units">Book a Tour</a></div>
       </div>
       <div className="hamburger-menu" id="hamburger-menu" onClick={toggleMenu}>

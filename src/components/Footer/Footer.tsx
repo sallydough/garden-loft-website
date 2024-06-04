@@ -13,7 +13,7 @@ function Footer() {
         <h3><a href="#two-units">Our Two Units</a></h3>
         <h3><a href="#compare-costs">Compare Our Costs</a></h3>
         <h3><a href="#four-step-process">Our 4 Step Process</a></h3>
-        <h3><a href="#zoning-grants">Calgary Zoning + Grants</a></h3>
+        <h3><a href="#rules-and-grants">Calgary Zoning + Grants</a></h3>
         <h3><a href="#garden-lofters">Meet Our Garden Lofters</a></h3>
         <h3><a href="#faq">FAQ</a></h3>
         <div>

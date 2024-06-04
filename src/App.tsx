@@ -3,11 +3,12 @@ import Home from './components/Home/Home'
 import './App.css'
 import Safety from './components/Safety/Safety'
 import Navbar from './components/Navbar/Navbar'
-
 import Carousel from './components/Carousel';  
 import Units from './components/Units/Units';
 import Costs from './components/Costs/Costs'
 import Footer from './components/Footer/Footer';
+import Costs from './components/Costs/Costs'
+import Grants from './components/Grants/Grants'
 
 import Process from './components/Process/Process'
 
@@ -27,6 +28,8 @@ function App() {
        <Carousel />
        <Report/>
        <Units />
+       <Costs />
+       <Grants />
 
        <Costs />
        <Process />

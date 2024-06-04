@@ -8,7 +8,7 @@ import './Carousel.css'
 
 const Carousel: React.FC = () => {
   return (
-    <div style={{ padding: '20px', textAlign: 'center', width: "100vw" }}>
+    <section id="garden-loft-advantage" style={{ padding: '20px', textAlign: 'center', width: "100vw" }}>
       <h1 style={{ fontSize: "2rem", marginBottom: '30px', marginTop: '40px' }}>The Garden Loft Advantage</h1>
       <Swiper
         modules={[Pagination]}
@@ -57,14 +57,14 @@ const Carousel: React.FC = () => {
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
         <button style={{
           background: 'none',
-          border: '2px solid #000',
+          border: '2px solid rgb(240, 212, 5)',
           padding: '10px 20px',
           borderRadius: '20px',
           cursor: 'pointer',
           fontSize: '16px'
         }}>Call Us</button>
       </div>
-    </div>
+    </section>
   );
 };
 
