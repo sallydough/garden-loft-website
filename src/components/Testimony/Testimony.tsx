@@ -26,7 +26,7 @@ const Testimony: React.FC = () => {
             <img src={image1} alt="Elizabeth Rodier" className="testimony-image" />
             <div className="testimony-text">
               <h3>ELIZABETH RODIER</h3>
-              <p>Living n my Garden Loft has been a wonderful experience. The design and efficiency are unmatched, and I appreciate the low impact on the environment.</p>
+              <p>Living in my Garden Loft has been a wonderful experience. The design and efficiency are unmatched, and I appreciate the low impact on the environment.</p>
             </div>
           </div>
         </SwiperSlide>
