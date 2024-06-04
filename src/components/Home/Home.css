@@ -5,7 +5,7 @@
   align-items: flex-end;
   height: 70vh;
   /* background-image: url('src/assets/pics/gl-hero.png'); */
-  background-image: url('../../../public/images/gl-hero.png');
+  background-image: url('/images/gl-hero.png');
   background-size: cover;    
   background-position: center; 
   background-repeat: no-repeat; 
