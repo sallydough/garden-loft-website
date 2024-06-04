@@ -60,16 +60,18 @@ const Navbar: React.FC = () => {
         <Link to="/faq" style={{ textDecoration: "none" }}>
           <p>FAQ</p>
         </Link>
+        <div className="button-group">
         <Link to="/tour" style={{ textDecoration: "none" }}>
-          <div className="button1">
+          <div className="button3">
             <a href="#our-units">Book a Tour</a>
           </div>
         </Link>
         <Link to="/tour" style={{ textDecoration: "none" }}>
-          <div className="button1">
-            <a href="#our-units">Contact</a>
+          <div className="button3">
+            <a href="#our-units">Contact Us</a>
           </div>
         </Link>
+        </div>
       </div>
       <div className="hamburger-menu" id="hamburger-menu" onClick={toggleMenu}>
         <span  className={`hamburger ${isScrolled ? "scrolled" : ""} ${

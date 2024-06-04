@@ -8,7 +8,7 @@ import './Carousel.css'
 
 const Carousel: React.FC = () => {
   return (
-    <section id="garden-loft-advantage" style={{ padding: '20px', textAlign: 'center', width: "100vw" }}>
+    <section id="garden-loft-advantage" style={{  textAlign: 'center', width: "100vw" }}>
       <h1 style={{ fontSize: "2rem", marginBottom: '30px', marginTop: '40px' }}>The Garden Loft Advantage</h1>
       <Swiper
         modules={[Pagination]}
