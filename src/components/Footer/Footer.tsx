@@ -25,14 +25,14 @@ function Footer() {
           <h3><a href="#initial-meeting">Initial Meeting</a></h3>
         </div>
       </div>
-      </div>
-      <div className="logo-section">
+     <div className="logo-section">
   <div className="logos">
     <div className='logos-title'>
     <img src={GLLogo} alt="Logos" />
     <h1>garden loft</h1>
     </div>
     <p>838 11 Ave SW {'{'}by appointment{'}'} <br /> (403)229-4330 <br />info@gardenloft.ca</p>
+  </div>
   </div>
   </div>
   
