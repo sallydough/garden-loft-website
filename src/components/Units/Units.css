@@ -5,35 +5,31 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  width:110vw;
+  width: 110vw;
 }
 
 .title-gl {
   background-color: rgb(250, 250, 250);
-  border: 1px solid rgb(48, 48, 47); 
-  padding: 10px 20px; 
+  border: 1px solid rgb(48, 48, 47);
+  padding: 10px 20px;
   border-radius: 2rem;
-  cursor: pointer; 
-  text-align: center; 
+  cursor: pointer;
+  text-align: center;
   align-content: center;
   margin-top: 30px;
   width: 30vw;
-  
 }
 .unit-title {
- padding: 10px;
- align-items: center;
+  padding: 10px;
+  align-items: center;
 }
 
-
-.gl-specs{
+.gl-specs {
   font-size: 1.3rem;
   margin-bottom: 3rem;
   text-align: center;
   line-height: 3rem;
 }
-
-
 
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
