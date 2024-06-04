@@ -68,6 +68,10 @@
   background-color: #fff;
 }
 
+.hamburger.scrolled {
+  background-color: #000000;
+}
+
 @media (max-width: 768px) {
   .menu-web {
     display: none;
