@@ -57,10 +57,12 @@ function Footer() {
             <img src={GLLogo} alt="Logos" />
             <h1>garden loft</h1>
           </div>
+          <div className="address">
           <p>
             838 11 Ave SW {"("}by appointment{")"} <br /> (403) 229-4330 <br />
             info@gardenloft.ca
           </p>
+          </div>
         </div>
       </div>
     </>
