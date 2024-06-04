@@ -29,7 +29,7 @@ function Footer() {
             <a href="#garden-lofters">Meet Our Garden Lofters</a>
           </h3>
           <h3>
-            <a href="#faq">FAQ</a>
+            <a href="/faq">FAQ</a>
           </h3>
           <div>
             <h1>Request a :</h1>
@@ -63,6 +63,9 @@ function Footer() {
             info@gardenloft.ca
           </p>
           </div>
+        </div>
+        <div className="copyright">
+       
         </div>
       </div>
     </>
