@@ -24,30 +24,31 @@ const Report: React.FC = () => {
           <div className="report-slide">
             <img src={Interior1} alt="Loft Image 1" className="report-image" />
           </div>
-          <h1 className="report-title">Combining light-filled open plan <br/>  loft-living with safety and peace of mind</h1>
+          <p className="report-title">Combining light-filled open plan loft-living with safety and peace of mind</p>
         </SwiperSlide>
         <SwiperSlide>
           <div className="report-slide">
             <img src={Interior2} alt="Loft Image 2" className="report-image" />
           </div>
-          <h1 className="report-title">Combining light-filled open plan <br/>  loft-living with safety and peace of mind</h1>
+          <p className="report-title">Combining light-filled open plan loft-living with safety and peace of mind</p>
         </SwiperSlide>
         <SwiperSlide>
           <div className="report-slide">
             <img src={Interior1} alt="Loft Image 3" className="report-image" />
           </div>
-          <h1 className="report-title">Combining light-filled open plan <br/>  loft-living with safety and peace of mind</h1>
+          <p className="report-title">Combining light-filled open plan loft-living with safety and peace of mind</p>
         </SwiperSlide>
         <SwiperSlide>
           <div className="report-slide">
             <img src={Interior2} alt="Loft Image 4" className="report-image" />
           </div>
+          <p className="report-title">Combining light-filled open plan loft-living with safety and peace of mind</p>
         </SwiperSlide>
         <SwiperSlide>
           <div className="report-slide">
             <img src={Interior1} alt="Loft Image 5" className="report-image" />
           </div>
-          <h1 className="report-title">Combining light-filled open plan <br/>  loft-living with safety and peace of mind</h1>
+          <p className="report-title">Combining light-filled open plan loft-living with safety and peace of mind</p>
         </SwiperSlide>
       </Swiper>
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
