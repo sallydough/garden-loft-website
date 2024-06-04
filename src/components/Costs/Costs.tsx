@@ -9,7 +9,7 @@ const Costs: React.FC = () => {
         <img className='costs-img' src={GLCost} alt="GL" />
       </div>
       <div className="costs-content">
-        <h1>Garden Lofts can be<br/>more affordable than <br />living in care facility</h1>
+        <h1>Garden Lofts can be more affordable than <br />living in care facility</h1>
         <button className='button-costs'>Compare our costs</button>
     </div>
     </section>

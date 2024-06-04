@@ -1,4 +1,8 @@
 /* Carousel.css */
+
+.process{
+  background-color: rgb(243, 176, 6);
+}
 .swiper-pagination {
   position: relative;
   bottom: 10px;

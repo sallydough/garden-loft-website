@@ -22,14 +22,14 @@ const Process: React.FC = () => {
             <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "60vh", margin: '0 auto', borderRadius: '1px' }} />
             <h2 style={{ textAlign: 'left' }}> <strong>STEP 1</strong></h2>
             <h3 style={{ textAlign: 'left' }}>Feasibility Analysis & Design selection</h3>
-            <p style={{ textAlign: 'left' }}>Our free feasibility analysis will tell you  <br />where and how we can locate a Garden Loft on your property.Work with Our design team to select your fixtures and finishes</p>
+            <p style={{ textAlign: 'left' }}>Our free feasibility analysis will tell you  where and how we can locate a Garden Loft on your property. <br />Work with Our design team to select your fixtures and finishes</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
             <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "60vh", margin: '0 auto', borderRadius: '1px' }} />
             <h2 style={{ textAlign: 'left' }}> <strong>STEP 2</strong></h2>
-            <h3 style={{ textAlign: 'left' }}>Permits and Approvals</h3>
+            <h3 style={{ textAlign: 'left' }}>Permits + Approvals</h3>
             <p style={{ textAlign: 'left' }}>We can take care of obtaining all the development and building permits and approvals. <br />Garden Lofts are noow allowed in all Calgary neighborhoods as legal secondary suites</p>
           </div>
         </SwiperSlide>
