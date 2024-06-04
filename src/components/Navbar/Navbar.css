@@ -76,6 +76,9 @@
 .hamburger.scrolled {
   background-color: #000000;
 }
+.hamburger2.scrolled {
+  background-color: #000000;
+}
 
 .hamburger-menu.open .hamburger {
   background-color: transparent;
