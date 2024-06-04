@@ -53,14 +53,6 @@ const Process: React.FC = () => {
             <p style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1rem' }}>Our free feasibility analysis will tell you  <br />where and how we can locate a Garden Loft on your property. Work with Our design team to select your fixtures and finishes.</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "50vh", margin: '1rem auto' }} />
-            <h2 style={{ textAlign: 'center' }}> <strong>STEP 5</strong></h2>
-            <h3 style={{ textAlign: 'center', margin: '10px' }}>Feasibility Analysis & Design selection</h3>
-            <p style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1rem' }}>Our free feasibility analysis will tell you  <br />where and how we can locate a Garden Loft on your property. Work with Our design team to select your fixtures and finishes.</p>
-          </div>
-        </SwiperSlide>
  </Swiper>
       <div style={{ textAlign: 'center', marginTop: '5px', alignContent: 'center' }}>
         <button style={{
