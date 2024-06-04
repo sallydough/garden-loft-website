@@ -9,7 +9,7 @@ import './Process.css'
 const Process: React.FC = () => {
   return (
     <div id="four-step-process" style={{ textAlign: 'center', width:'100vw' }}>
-      <h1 style={{ fontSize: "2rem", marginBottom: '10px', marginTop: '20px', paddingTop: "1rem" }}>Owning a Garden Loft <br />is a 4-Step Process</h1>
+      <h1 style={{ fontSize: "2rem", marginBottom: '10px', marginTop: '30px', paddingTop: "3rem" }}>Owning a Garden Loft <br />is a 4-Step Process</h1>
       <Swiper
      modules={[Pagination]}
      spaceBetween={12}
@@ -70,7 +70,8 @@ const Process: React.FC = () => {
           borderRadius: '50px',
           cursor: 'pointer',
           fontSize: '1.3rem',
-          color: 'white'
+          color: 'white',
+          marginBottom: "4rem"
         }}>Book a Tour</button>
       </div>
     </div>

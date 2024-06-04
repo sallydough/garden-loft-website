@@ -4,7 +4,6 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
@@ -14,7 +13,7 @@
 
 #rules-and-grants h1 {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 #rules-and-grants p {
   font-size: 1rem;
@@ -24,13 +23,13 @@
 
 .button-safety-cost {
   background-color: transparent;
-  border: 2px solid rgb(240, 212, 5);
-  padding: 10px 20px;
-  border-radius: 2rem;
+  border: 4px solid rgb(240, 212, 5);
+  padding: 20px 30px;
+  border-radius: 50px;
   cursor: pointer;
   text-align: center;
   margin-top: 10px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /* Media Queries for Larger Screens */

@@ -1,12 +1,11 @@
  .navbar {
   display: flex;
   margin: 0 auto;
-  
   justify-content: center;
   align-items: center;
   padding: 2rem;
   width: 100vw;
-  gap: 6rem;
+  gap: 2rem;
   position: fixed;
   top: 0;
   transition: all 0.3s ease;

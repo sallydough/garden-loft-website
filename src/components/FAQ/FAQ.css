@@ -29,13 +29,13 @@
 
 .button-safety-cost {
   background-color: transparent;
-  border: 2px solid rgb(240, 212, 5);
-  padding: 10px 20px;
-  border-radius: 2rem;
+  border: 4px solid rgb(240, 212, 5);
+  padding: 20px 30px;
+  border-radius: 50px;
   cursor: pointer;
   text-align: center;
   margin-top: 10px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /* Media Queries for Larger Screens */
